@@ -5,7 +5,7 @@ import { Badge } from './ui/badge';
 import { Service } from '@/lib/supabaseClient';
 import { formatCurrency } from '@/lib/utils';
 import { useNavigate } from 'react-router-dom';
-import { Wrench, Sparkles, ArrowLeft } from 'lucide-react';
+import { Wrench, ArrowLeft } from 'lucide-react';
 
 interface ServiceCardProps {
   service: Service;

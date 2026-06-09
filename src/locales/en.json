@@ -44,7 +44,7 @@
     "admin": "System Administrator"
   },
   "landing": {
-    "title": "HVAC Service Marketplace",
+    "title": "Cool Fix",
     "subtitle": "Get the best cooling and air conditioning services from professional engineers",
     "viewServices": "View Services",
     "requestService": "Request Service",
@@ -138,7 +138,7 @@
   },
   "admin": {
     "title": "Admin Dashboard",
-    "heroSubtitle": "Operate your HVAC marketplace with live stats, assignments, and team overview.",
+    "heroSubtitle": "Operate Cool Fix with live stats, assignments, and team overview.",
     "unassigned": "Unassigned",
     "dashboard": "Dashboard",
     "allRequests": "All Requests",
@@ -172,7 +172,7 @@
   "auth": {
     "loginRequiredBody": "Sign in to book a service and track your requests.",
     "loginSubtitle": "Welcome back. Sign in to manage bookings and your dashboard.",
-    "loginSideTitle": "HVAC Service Marketplace",
+    "loginSideTitle": "Cool Fix",
     "loginSideDesc": "Cooling and air conditioning services — book online, track visits, and rate engineers.",
     "registerSubtitle": "Create your account in seconds. Book AC services and track every visit.",
     "registerAs": "I am registering as",
@@ -200,4 +200,3 @@
     "ratingRequired": "Rating is required"
   }
 }
-

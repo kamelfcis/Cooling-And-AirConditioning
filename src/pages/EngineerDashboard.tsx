@@ -38,7 +38,26 @@ export function EngineerDashboard() {
   const [notes, setNotes] = useState<string>('');
   const [loading, setLoading] = useState(false);
 
-  // Check if engineer profile exists
+
+  const { data: engineerProfile, isLoading: profileLoading } = useQuery({
+    queryKey: ['engineer-profile', user?.id],
+    enabled: !!user?.id,
+    queryFn: async () => {
+      const { data, error } = await supabase
+        .from('engineers')
+        .select('id')
+        .eq('user_id', user!.id)
+        .maybeSingle();
+      if (error) throw error;
+      return data;
+    },
+  });
+
+  useEffect(() => {
+    if (!profileLoading && user && !engineerProfile) {
+      navigate('/engineer/register');
+    }
+  }, [profileLoading, user, engineerProfile, navigate]);
   const engineerRequests = requests.filter((r) => r.engineer_id);
 
   const handleUpdateStatus = async () => {

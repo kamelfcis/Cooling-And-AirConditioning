@@ -6,7 +6,7 @@ import { HeroSlider } from '@/components/HeroSlider';
 import { Wrench, DollarSign, Shield, Loader2, Sparkles } from 'lucide-react';
 
 export function LandingPage() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const { data: services, isLoading } = useServices();
 
   return (

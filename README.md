@@ -1,6 +1,6 @@
-# HVAC Service Marketplace
+# Cool Fix
 
-A production-ready bilingual (Arabic & English) HVAC (Cooling & Air Conditioning) service marketplace built with React, TypeScript, and Supabase.
+A production-ready bilingual (Arabic & English) Cool Fix — a bilingual HVAC (cooling and air conditioning) service platform built with React, TypeScript, and Supabase.
 
 ## Features
 

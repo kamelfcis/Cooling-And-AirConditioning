@@ -6,7 +6,6 @@ import {
   CheckCircle2,
   ClipboardList,
   Clock,
-  Loader2,
   MapPin,
   Sparkles,
   User,

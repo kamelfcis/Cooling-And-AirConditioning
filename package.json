@@ -1,11 +1,11 @@
 {
-  "name": "hvac-marketplace",
+  "name": "cool-fix",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "scripts\\vite-dev.cmd",
-    "build": "tsc && scripts\\vite-build.cmd",
+    "build": "tsc && vite build",
     "preview": "scripts\\vite-preview.cmd",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
@@ -52,4 +52,3 @@
     "vite": "^5.0.8"
   }
 }
-

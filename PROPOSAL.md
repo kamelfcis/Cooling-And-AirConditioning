@@ -1,4 +1,4 @@
-# HVAC Service Marketplace - Project Proposal
+# Cool Fix - Project Proposal
 
 ## Table of Contents
 
@@ -52,7 +52,7 @@ A digital marketplace platform can centralize requests, automate assignments, pr
 
 ## Project Idea
 
-Develop a **bilingual (Arabic & English) HVAC service marketplace** that connects customers with engineers.
+Develop **Cool Fix**, a bilingual (Arabic & English) HVAC service platform that connects customers with engineers.
 
 **For Customers:**
 - Browse services with transparent pricing
@@ -401,6 +401,6 @@ Testing & Refinement    |    |    |    |    |    |    |████|
 
 ## Conclusion
 
-This HVAC service marketplace addresses inefficiencies in manual service coordination by providing a modern, bilingual, scalable digital platform. It benefits customers through transparency, engineers through organized workload management, and businesses through improved efficiency and data-driven insights.
+Cool Fix addresses inefficiencies in manual service coordination by providing a modern, bilingual, scalable digital platform. It benefits customers through transparency, engineers through organized workload management, and businesses through improved efficiency and data-driven insights.
 
 The solution fills a market gap by offering an affordable, HVAC-specific, bilingual platform tailored for small and medium businesses.
